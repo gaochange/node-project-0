@@ -1,6 +1,6 @@
 var http = require('http');
 var host = "0.0.0.0";
-var port = 8888；
+var port = 8888;
 
 http.createServer(function (request, response) {
 
