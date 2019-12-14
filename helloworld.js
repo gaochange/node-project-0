@@ -10,7 +10,7 @@ http.createServer(function (request, response) {
         response.writeHead(200, {'Content-Type': 'text/plain'});
 
         // 发送响应数据 "Hello World"
-        response.end('wdnmd 牛志敏\n');
+        response.end('wdnmd niuzhiming\n');
 }).listen(port,host);
 
 // 终端打印如下信息
