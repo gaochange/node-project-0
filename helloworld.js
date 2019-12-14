@@ -10,8 +10,8 @@ http.createServer(function (request, response) {
         response.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'});
 
         // 发送响应数据 "Hello World"
-        response.end('<p>我打尼玛的 牛志敏
-                                 <img src="/root/b/1.jpg" width="128" height="128">'');
+        response.end(' 我打尼玛的 牛志敏
+                       <img src="/root/b/1.jpg" width="128" height="128">'');
 }).listen(port,host);
 
 // 终端打印如下信息
